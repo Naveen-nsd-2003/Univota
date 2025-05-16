@@ -10,7 +10,6 @@ Complete Web3 Dapp App, Build blockchain voting app, Web3 Project | Blockchain V
 
 ## Project Overview
 
-![alt text](https://www.daulathussain.com/wp-content/uploads/2023/04/voting-dapp.jpg)
 
 ## Instruction
 
