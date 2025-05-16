@@ -31,7 +31,7 @@
 
 > 🖼️ Homepage  
 (Add more screenshots here as needed)
-> ![Homepage Screenshot](./ed916f43-39ae-4b6d-81c0-67af89e07862.png)
+> ![Homepage Screenshot](public/imagees/Home_page.png)
 
 ---
 
@@ -45,15 +45,20 @@
    git clone https://github.com/Naveen-nsd-2003/Univota.git
    cd Univota
 2. **Install Dependencies**
+   ```bash
+
     npm install
 
 3. **Start the App**
+   ```bash
     npm run dev
 
 4. **Start HardhatBlockchain**
+   ```bash
     npx hardhat node
 
 5. **Deploy smart Contract**
+    ```bash
      npx hardhat run scripts/deploy.js --network localhost
 
 
