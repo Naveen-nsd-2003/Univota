@@ -155,7 +155,7 @@ const Index = () => {
       }
     } else {
       // First time setup
-      const newDeadline = Date.now() + 2 * 60 * 1000; // 15 minutes from now
+      const newDeadline = Date.now() + 5 * 60 * 1000; // 15 minutes from now
       localStorage.setItem("votingDeadline", newDeadline);
       setVotingDeadline(newDeadline);
     }

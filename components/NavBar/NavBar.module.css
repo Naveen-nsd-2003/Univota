@@ -45,12 +45,16 @@
   transform-origin: top right;
   transition: transform 0.3s ease;
 }
+.navMenu a :hover{
+    transform: scale(1.03);
+    background: linear-gradient(135deg, #6dd5ed, #2193b0);
+}
 
 .navMenu a {
   text-decoration: none;
   color: #333;
   margin: 0.5rem 0;
-}
+  }
 
 .active {
   transform: scale(1);
