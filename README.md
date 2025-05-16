@@ -62,7 +62,7 @@
      npx hardhat run scripts/deploy.js --network localhost
 
 
-   🙋‍♂️ Author
+🙋‍♂️ Author
 Naveen Kumar N
 📧 naveennsd1515@gmail.com
 🔗 GitHub – @Naveen-nsd-2003
