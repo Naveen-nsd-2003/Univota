@@ -1,0 +1,57 @@
+/* components/Navbar/Navbar.module.css */
+
+.navbar {
+  background-color: #ffffff;
+  padding: 0.8rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logoSection {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.logoSection h1 {
+  font-size: 1.5rem;
+  color: #333333;
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.navMenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(0);
+  transform-origin: top right;
+  transition: transform 0.3s ease;
+}
+
+.navMenu a {
+  text-decoration: none;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.active {
+  transform: scale(1);
+}

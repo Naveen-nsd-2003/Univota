@@ -1,0 +1,31 @@
+.voterList {
+  min-height: 100vh;
+  padding: 2rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  backdrop-filter: blur(3px); 
+  color: #fff;
+}
+ 
+
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .voterList {
+    padding: 2rem 1rem;
+  }
+}

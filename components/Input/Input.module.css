@@ -1,0 +1,41 @@
+.input {
+    margin-bottom: 1.5rem;
+  }
+  
+  .input p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #e0e0e0;
+    font-weight: 500;
+  }
+  
+  /* Keep the class names same as in JSX */
+  .input__box {
+    width: 100%;
+    background-color: #1e1e2f;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .input__box__form {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+    font-family: inherit;
+  }
+  
+  .input__box:hover {
+    border-color: #6dd5ed;
+    box-shadow: 0 0 10px rgba(109, 213, 237, 0.3);
+  }
+  
+  .input__box:focus-within {
+    border-color: #2193b0;
+    box-shadow: 0 0 12px rgba(33, 147, 176, 0.6);
+  }
+  

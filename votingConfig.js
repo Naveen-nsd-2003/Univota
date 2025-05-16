@@ -1,0 +1,1 @@
+export const votingDeadline = new Date("2025-05-15T18:00:00");

@@ -1,0 +1,146 @@
+.voterPage {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.formCard {
+  flex: 1;
+  min-width: 300px;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.formCard h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.formCard input {
+  padding: 0.8rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  outline: none;
+  transition: 0.3s;
+}
+
+.formCard input:focus {
+  border-color: #4a90e2;
+  background-color: #fff;
+}
+
+.uploadBox {
+  padding: 1rem;
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #f0f8ff;
+  cursor: pointer;
+  color: #333;
+}
+
+.uploadBox:hover {
+  background-color: #e4f4ff;
+}
+
+.formCard button {
+  padding: 0.9rem;
+  background-color: #4a90e2;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.formCard button:hover {
+  background-color: #3a78c2;
+}
+
+.infoBox {
+  flex: 1;
+  min-width: 280px;
+  background: url('/watermarks.png') right center no-repeat;
+  background-size: 300px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.infoBox h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #0c0c0c;
+  align-content: center;
+}
+
+.infoBox p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.sectionTitle {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.cardGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.cardItem {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  width: 230px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.cardItem img {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.cardItem h4 {
+  font-size: 1.1rem;
+  color: #111;
+  margin-bottom: 0.4rem;
+}
+
+.cardItem p {
+  font-size: 0.95rem;
+  color: #444;
+  margin: 0.2rem 0;
+}
