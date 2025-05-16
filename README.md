@@ -1,121 +1,63 @@
-
-# Voting Dapp (Decentralized)
-
-Build Blockchain Voting Dapp (Decentralized) using Nextjs, Solidity, MetaMask & Hardhat | Voting App
+# 🗳️ Univota – Decentralized Voting System
 
 
-Complete the source code of the Ethereum Decentralized Voting project, With the final code & starter file to speed up your development if you are stuck in coding this project.
 
-Complete Web3 Dapp App, Build blockchain voting app, Web3 Project | Blockchain Voting App With Voting Smart Contract Solidity, Complete Project, voting smart contract solidity, solidity projects for beginners, solidity programming tutorial
+**Univota** is a secure, transparent, and decentralized voting system built using **Blockchain technology**. It ensures fair elections without any central authority. The system is designed with a modern UI inspired by Tamil Nadu government services.
 
-## Project Overview
+## 🚀 Features
 
+- ✅ Register Candidates & Voters
+- 🧾 Display Registered Voters and Candidates
+- 🗳️ Cast Votes (One per registered voter)
+- 🧮 Live Vote Count
+- ⏳ Voting Deadline Countdown
+- 🏆 Result Page for Final Outcome
+- 🌗 Responsive Design with Light/Dark Theme Toggle
+- ⚠️ Real-time Feedback (Success/Error Toasts)
 
-## Instruction
+---
 
-Kindly follow the following Instructions to run the project in your system and install the necessary requirements
+## 🛠️ Technologies Used
 
+| Layer     | Tech Stack                    |
+|-----------|-------------------------------|
+| Frontend  | ReactJS, Tailwind CSS         |
+| Blockchain| Solidity, Ethers.js           |
+| Tools     | Hardhat, IPFS (via Pinata)    |
 
-- [Final Source Code](https://www.theblockchaincoders.com/sourceCode/ethereum-decentralized-voting-project-source-code)
+---
 
-#### Setup Video
-- [Final Code Setup video](https://youtu.be/WKKJs31jEFQ?si=Vd3MsUOPmeN-H-33)
+## 📸 Screenshots
 
-```https://code.visualstudio.com/download
-  WATCH: Setup & Demo Of Project
-```
+> 🖼️ Homepage  
+(Add more screenshots here as needed)
+> ![Homepage Screenshot](./ed916f43-39ae-4b6d-81c0-67af89e07862.png)
 
-#### Install Vs Code Editor
+---
 
-```https://code.visualstudio.com/download
-  GET: VsCode Editor
-```
+---
 
-#### NodeJs & NPM Version
+## ⚙️ Installation & Setup
 
-```https://nodejs.org/en/download
-  NodeJs: v18.12.1
-  NPM: 8.19.2
-```
+1. **Clone the repository**
 
-#### Clone Starter File
+   ```bash
+   git clone https://github.com/Naveen-nsd-2003/Univota.git
+   cd Univota
+2. **Install Dependencies**
+    npm install
 
-```https://github.com/daulathussain/Airdrop-Crypto-Starter-File
-  GET: Project Starter File Download
-```
+3. **Start the App**
+    npm run dev
 
+4. **Start HardhatBlockchain**
+    npx hardhat node
 
-All you need to follow the complete project and follow the instructions which are explained in the tutorial by Daulat
-
-## Final Code Instruction
-
-If you download the final source code then you can follow the following instructions to run the Dapp successfully
-
-#### Setup Video
-
-```https://code.visualstudio.com/download
-  WATCH: Setup & Demo Of Project
-```
-
-#### Final Source Code
-
-```https://www.theblockchaincoders.com/SourceCode
-  Download the Final Source Code
-```
-
-#### Install Vs Code Editor
-
-```https://code.visualstudio.com/download
-  GET: VsCode Editor
-```
-
-#### NodeJs & NPM Version
-
-```https://nodejs.org/en/download
-  NodeJs: v18.12.1
-  NPM: 8.19.2
-```
-
-#### PInata
-
-```https://www.pinata.cloud/
-  PINATA API KEY
-  PINATA SECRET KEY
-```
+5. **Deploy smart Contract**
+     npx hardhat run scripts/deploy.js --network localhost
 
 
-#### Test Faucets
-
-Alchemy will provide you with some free test faucets which you can transfer to your wallet address for deploying the contract
-
-```https://www.alchemy.com/faucets
-  Get: Free Test Faucets
-```
-
-#### RemixID
-
-We are using RemixID for deploying the contract and generation of the ABI in the project, but you can use any other tools like Hardhat, etc.
-
-```https://remix-project.org
-  OPEN: RemixID
-```
-
-#### Polygon Mumbai
-
-```https://mumbai.polygonscan.com/
-  OPEN: Polygon Mumbai
-```
-
-## Important Links
-
-- [Get Pro Blockchain Developer Course](https://www.theblockchaincoders.com/pro-nft-marketplace)
-- [Support Creator](https://bit.ly/Support-Creator)
-- [All Projects Source Code](https://www.theblockchaincoders.com/SourceCode)
-
-
-## Authors
-
-- [@theblockchaincoders.com](https://www.theblockchaincoders.com/)
-- [@consultancy](https://www.theblockchaincoders.com/consultancy)
-- [@youtube](https://www.youtube.com/@daulathussain)
-
+   🙋‍♂️ Author
+Naveen Kumar N
+📧 naveennsd1515@gmail.com
+🔗 GitHub – @Naveen-nsd-2003
